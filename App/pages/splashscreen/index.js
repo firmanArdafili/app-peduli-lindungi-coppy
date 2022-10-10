@@ -62,7 +62,7 @@ export default SplashScreen = ({navigation}) => {
     },
     content: {
       marginTop:10,
-      alignItems: 'center',
+      alignItems: 'center' ,
       justifyContent: 'center',
       flexDirection:'row'
     },
