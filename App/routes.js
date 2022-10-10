@@ -1,13 +1,19 @@
 import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
-import {splashscreen} from './pages';
+import {
+  SplashScreen,
+  LoginScreen
+} from './Pages';
 
 const Stack = createStackNavigator();
 
 export default Router = () => {
   return (
-    <Stack.Navigator initialRouteName="splashscreen">
-      <Stack.Screen name="splashscreen" component={splashscreen} options={{headerShown: false}}/>
+    <Stack.Navigator initialRouteName="SplashScreen">
+      <Stack.Screen name="SplashScreen" component={SplashScreen} options={{headerShown: false}} />
+      <Stack.Screen name="LoginScreen" component={LoginScreen} options={{headerShown: false}} />
+      
+  
     </Stack.Navigator>
   );
 };
