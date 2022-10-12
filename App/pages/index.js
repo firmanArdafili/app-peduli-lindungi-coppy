@@ -3,6 +3,7 @@ import LoginScreen from './LoginScreen';
 import HomeScreen from './HomeScreen';
 import ImmunScreen from './ImmunScreen';
 import CovidTestScreen from './CovidTestScreen';
+import EhacScreen from './EhacScreen';
 
 
 
@@ -11,5 +12,6 @@ export {
     LoginScreen,
     HomeScreen,
     ImmunScreen,
-    CovidTestScreen
+    CovidTestScreen,
+    EhacScreen
 };

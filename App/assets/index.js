@@ -26,6 +26,7 @@ import IconDropdown from './img/icon-dropdown.png';
 import IconScan from './img/icon-scan.png';
 import IconMail from './img/icon-mail.png';
 import IconLock from './img/icon-lock.png';
+import BgEhc from './img/bg-ehc.jpeg';
 
 export {
     BgDokter,
@@ -55,5 +56,6 @@ export {
     IconDropdown,
     IconScan,
     IconMail,
-    IconLock
+    IconLock,
+    BgEhc
 };

@@ -120,7 +120,8 @@ export default HomeScreen = ({navigation}) => {
               </View>
               <View style={styles.icon8}>
                 <Image source={IconFindHospital} style={styles.findhospital}/>
-                <Text style={styles.textfindhospital}>Cari Kamar Rumah Sakit</Text>
+                <Text style={styles.textfindhospital}>Cari Kamar</Text>
+                <Text style={styles.textfindhospital}>Rumah Sakit</Text>
               </View>
             </View>
         </View>
