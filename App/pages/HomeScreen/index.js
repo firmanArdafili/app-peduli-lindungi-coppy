@@ -35,7 +35,7 @@ export default HomeScreen = ({navigation}) => {
 
         <View style={styles.contentimg}>
           <Image source={IconProfile} style={styles.imgIcon}/>
-          <Text style={styles.text1}>Hi,</Text>
+          <Text style={styles.text1}>Hai,</Text>
           <TouchableOpacity onPress={()=>navigation.navigate('LoginScreen')}>
             <Text style={styles.text2}>Nana Firman Ardafili</Text>
           </TouchableOpacity>
@@ -45,15 +45,15 @@ export default HomeScreen = ({navigation}) => {
         <View style={styles.content2}>
             <View style={styles.content3}>
                 <View style={styles.content4}>
-                <Text style={styles.text3}>Entering A Public Space?</Text>
-                <Text style={styles.text4}>Stay alert to stay safe</Text>
+                <Text style={styles.text3}>Masuk ke ruang publik?</Text>
+                <Text style={styles.text4}>Selalu terapkan protokol kesehatan</Text>
                 </View>
                 <Image source={IconHandQr} style={styles.imgIcon3}/>
             </View>
             <View style={styles.contentcheckin}>
                 
                     <Image source={IconDropdown} style={styles.imgIcon4}/>
-                    <Text style={styles.text5}>Check-in Preference</Text>
+                    <Text style={styles.text5}>Pengaturan Check-in</Text>
               <View style={styles.contentscan}>
                 <Image source={IconScan} style={styles.imgIcon5}/>
                 <Text style={styles.text6}>Check-in</Text>
@@ -69,13 +69,13 @@ export default HomeScreen = ({navigation}) => {
               <TouchableOpacity onPress={()=>navigation.navigate('ImmunScreen')}>
                 <Image source={IconVaccine} style={styles.vaccine}/>
               </TouchableOpacity>
-              <Text style={styles.textvaccine}>Vaccine and Immunization</Text>
+              <Text style={styles.textvaccine}>Vaksin dan Imunisasi</Text>
             </View>
             <View style={styles.icon2}>
               <TouchableOpacity onPress={()=>navigation.navigate('CovidTestScreen')}>
                 <Image source={IconCovidTest} style={styles.covidtest}/>
               </TouchableOpacity>
-              <Text style={styles.textcovidtest}>Covid-19 Test Result</Text>
+              <Text style={styles.textcovidtest}>Hasil Tes COVID-19</Text>
             </View>
             <View style={styles.icon3}>
               <TouchableOpacity onPress={()=>navigation.navigate('EhacScreen')}>
@@ -87,25 +87,25 @@ export default HomeScreen = ({navigation}) => {
           <View style={styles.row2}>
               <View style={styles.icon4}>
                 <Image source={IconTravelRegulation} style={styles.travel}/>
-                <Text style={styles.texttravel}>Travel Regulations</Text>
+                <Text style={styles.texttravel}>Aturan Perjalanan</Text>
               </View>
               <View style={styles.icon5}>
                 <Image source={IconTelemedicine} style={styles.telemedicine}/>
-                <Text style={styles.texttelemedicine}>Telemedicine</Text>
+                <Text style={styles.texttelemedicine}>Teledokter</Text>
               </View>
               <View style={styles.icon6}>
                 <Image source={IconHealthcare} style={styles.healthcare}/>
-                <Text style={styles.texthealth}>Healthcare Facility</Text>
+                <Text style={styles.texthealth}>Pelayanan Kesehatan</Text>
               </View>
             </View>
             <View style={styles.row3}>
               <View style={styles.icon7}>
                 <Image source={IconStatisCovid} style={styles.covid}/>
-                <Text style={styles.textcovid}>Covid-19 Statistic</Text>
+                <Text style={styles.textcovid}>Statistik COVID-19</Text>
               </View>
               <View style={styles.icon8}>
                 <Image source={IconFindHospital} style={styles.findhospital}/>
-                <Text style={styles.textfindhospital}>Find Hospital Bed</Text>
+                <Text style={styles.textfindhospital}>Cari Kamar Rumah Sakit</Text>
               </View>
             </View>
         </View>

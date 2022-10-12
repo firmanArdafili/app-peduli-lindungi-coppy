@@ -12,6 +12,7 @@ export const onLoadFont = () =>{
         'Lato-Thin': require('./fonts/Lato-Thin.ttf'),
         'Lato-ThinItalic': require('./fonts/Lato-ThinItalic.ttf'),
         'Lato-ThinItalic': require('./fonts/Lato-ThinItalic.ttf'),
+        'Roboto-Bold': require('./fonts/Roboto-Bold.ttf'),
     });
     return loaded
 }
