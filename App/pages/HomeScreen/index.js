@@ -25,6 +25,12 @@ import {
     IconStatisCovid
 } from '../../assets';
 
+const onPress=()=>{
+  alert('Module Dalam Pengembangan')
+}
+
+
+
 export default HomeScreen = ({navigation}) => {
     return (
       <SafeAreaView style={styles.container}>
@@ -69,13 +75,15 @@ export default HomeScreen = ({navigation}) => {
               <TouchableOpacity onPress={()=>navigation.navigate('ImmunScreen')}>
                 <Image source={IconVaccine} style={styles.vaccine}/>
               </TouchableOpacity>
-              <Text style={styles.textvaccine}>Vaksin dan Imunisasi</Text>
+              <Text style={styles.textvaccine}>Vaksin dan</Text>
+              <Text style={styles.textvaccine}>Imunisasi</Text>
             </View>
             <View style={styles.icon2}>
               <TouchableOpacity onPress={()=>navigation.navigate('CovidTestScreen')}>
                 <Image source={IconCovidTest} style={styles.covidtest}/>
               </TouchableOpacity>
-              <Text style={styles.textcovidtest}>Hasil Tes COVID-19</Text>
+              <Text style={styles.textcovidtest}>Hasil Tes</Text>
+              <Text style={styles.textcovidtest}>COVID-19</Text>
             </View>
             <View style={styles.icon3}>
               <TouchableOpacity onPress={()=>navigation.navigate('EhacScreen')}>
@@ -84,10 +92,17 @@ export default HomeScreen = ({navigation}) => {
               <Text style={styles.textehac}>EHAC</Text>
             </View>
           </View>
+
+          
+
           <View style={styles.row2}>
               <View style={styles.icon4}>
-                <Image source={IconTravelRegulation} style={styles.travel}/>
-                <Text style={styles.texttravel}>Aturan Perjalanan</Text>
+              <TouchableOpacity onPress={onPress}>
+                
+                <Image source={IconEhac} style={styles.ehac}/>
+                <Text style={styles.texttravel}>Aturan </Text>
+                <Text style={styles.texttravel}>Perjalanan</Text>
+              </TouchableOpacity>
               </View>
               <View style={styles.icon5}>
                 <Image source={IconTelemedicine} style={styles.telemedicine}/>
