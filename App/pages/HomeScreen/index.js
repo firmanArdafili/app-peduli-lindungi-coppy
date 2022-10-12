@@ -78,6 +78,7 @@ export default HomeScreen = ({navigation}) => {
               <Text style={styles.textvaccine}>Vaksin dan</Text>
               <Text style={styles.textvaccine}>Imunisasi</Text>
             </View>
+
             <View style={styles.icon2}>
               <TouchableOpacity onPress={()=>navigation.navigate('CovidTestScreen')}>
                 <Image source={IconCovidTest} style={styles.covidtest}/>
@@ -85,6 +86,7 @@ export default HomeScreen = ({navigation}) => {
               <Text style={styles.textcovidtest}>Hasil Tes</Text>
               <Text style={styles.textcovidtest}>COVID-19</Text>
             </View>
+
             <View style={styles.icon3}>
               <TouchableOpacity onPress={()=>navigation.navigate('EhacScreen')}>
                 <Image source={IconEhac} style={styles.ehac}/>
@@ -98,32 +100,44 @@ export default HomeScreen = ({navigation}) => {
           <View style={styles.row2}>
               <View style={styles.icon4}>
               <TouchableOpacity onPress={onPress}>
-                
                 <Image source={IconEhac} style={styles.ehac}/>
                 <Text style={styles.texttravel}>Aturan </Text>
                 <Text style={styles.texttravel}>Perjalanan</Text>
               </TouchableOpacity>
               </View>
+
               <View style={styles.icon5}>
+              <TouchableOpacity onPress={onPress}>
                 <Image source={IconTelemedicine} style={styles.telemedicine}/>
                 <Text style={styles.texttelemedicine}>Teledokter</Text>
+              </TouchableOpacity>
               </View>
+
               <View style={styles.icon6}>
+              <TouchableOpacity onPress={onPress}>
                 <Image source={IconHealthcare} style={styles.healthcare}/>
                 <Text style={styles.texthealth}>Pelayanan Kesehatan</Text>
+                </TouchableOpacity>
               </View>
             </View>
+
             <View style={styles.row3}>
               <View style={styles.icon7}>
+              <TouchableOpacity onPress={onPress}>
                 <Image source={IconStatisCovid} style={styles.covid}/>
                 <Text style={styles.textcovid}>Statistik COVID-19</Text>
+              </TouchableOpacity>
               </View>
+
               <View style={styles.icon8}>
+              <TouchableOpacity onPress={onPress}>
                 <Image source={IconFindHospital} style={styles.findhospital}/>
                 <Text style={styles.textfindhospital}>Cari Kamar</Text>
                 <Text style={styles.textfindhospital}>Rumah Sakit</Text>
+              </TouchableOpacity>
               </View>
             </View>
+
         </View>
 
       </SafeAreaView>
